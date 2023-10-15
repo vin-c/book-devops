@@ -313,7 +313,7 @@ Ceci dit, Google a perçu les écueils d'une absence de prise de risque et trava
 - **Encourager la prise de risque et l'expérimentation** : encourager ses équipes à proposer de nouvelles idées et à tester des projets pour explorer de nouvelles technologies. Récompenser la prise de risque.
 - **Investir dans l'innovation** : allouer des ressources suffisantes pour la recherche et développement (R&D). Par exemple, accorder 1 jour de télétravail par semaine à ses experts, pour qu'ils explorent une technologie innovante. Accorder des financements à ses équipes pour acheter le matériel leur permettant d'expérimenter, ou bien leur donner accès à un hébergeur Cloud (cf. chapitre "[Former de manière continue](#former-de-manière-continue)").
 
-Plus pragmatiquement, si vous décidez de monter votre propre équipe, il se peut que certains membres quittent votre structure à tout instant. Au vu de la maturité des réflexions qu'ils entreprenaient, ils risquent alors de laisser derrière eux un travail fastidieux à reprendre. Voilà pourquoi beaucoup d'organisations préfèrent faire appel à un tiers-partie, avec un cahier des charges bien définit pour que le décideur soit certain d'obtenir un résultat (au travers de l'obligation contractuelle du tiers-partie). Nous verrons dans le chapitre "[Être au plus proche du métier](#être-au-plus-proche-du-métier)" que cette pratique peut avoir des conséquences néfastes à long terme pour l'organisation.
+Plus pragmatiquement, si vous décidez de monter votre propre équipe, il se peut que certains membres quittent votre structure à tout instant. Au vu de la maturité des réflexions qu'ils entreprenaient, ils risquent alors de laisser derrière eux un travail fastidieux à reprendre. Voilà pourquoi beaucoup d'organisations préfèrent faire appel à une tierce partie, avec un cahier des charges bien définit pour que le décideur soit certain d'obtenir un résultat (au travers de l'obligation contractuelle de la tierce partie). Nous verrons dans le chapitre "[Être au plus proche du métier](#être-au-plus-proche-du-métier)" que cette pratique peut avoir des conséquences néfastes à long terme pour l'organisation.
 
 Les évolutions organisationnelles impliquent toujours un changement culturel qu'il faut savoir appréhender. Ce fossé culturel est parfois trop difficile à surmonter pour l'organisation toute entière et cela indique qu'il est probablement encore trop tôt pour exposer votre plan. Acculturez-la au moyen de présentations et d'exemples de réussites. Le décideur doit comprendre clairement l'impact que peut avoir cette transformation et les risques associés : rupture de service, changement de stratégie RH, formation du personnel ou encore achat de matériel. Aidez vos responsables à se projeter pendant que vous travaillez à construire vos preuves.
 
@@ -446,7 +446,7 @@ Gardez en tête que si les choses sont telles qu'elles le sont aujourd'hui, c'es
 
 Restez également conscient que pendant une transformation, les dirigeants doivent assurer les mêmes services qu'avant. Le décideur doit alors maîtriser l'environnement en transformation en parallèle de l'environnement actuel, sans que le premier tue le second.
 
-Enfin, ne vous découragez pas devant la première personne réticente. Toute innovation à ses débuts fait objet d'une moquerie morale et passe par trois phase : ridicule, dangereuse puis évidente[^InnovationPhases]. L'ayant vécu, je peux attester de la véracité de ce phénomène, mais des exemples historiques existent :
+Enfin, ne vous découragez pas devant la première personne réticente. Toute innovation à ses débuts fait objet d'une moquerie morale et passe par trois phases : ridicule, dangereuse puis évidente[^InnovationPhases]. L'ayant vécu, je peux attester de la véracité de ce phénomène, mais des exemples historiques existent :
 
 - Le droit de vote des femmes : d'abord jugé ridicule, ensuite dangereux car certaines [suffragettes](https://en.wikipedia.org/wiki/Suffragette) y ont perdu la vie (années 1910), puis cette idée est devenue évidente dans nos sociétés contemporaines.
 - Henri FORD qui portait la vision selon laquelle chaque Américain devait avoir une voiture personnelle et qu'elle ne coûte pas cher. À l'époque, la voiture était considérée comme un gadget pour les riches : "on ne sait pas à quoi ça sert mais c'est joli". Il a créé la première chaîne de montage en mouvement de l'industrie (1913)[^FordIndustryChain] et _Ford_ fait encore aujourd'hui partie des leaders de l'industrie automobile.
@@ -605,7 +605,7 @@ Si vous ne disposez pas des autorisations nécessaires, il n'est peut-être pas 
 
 L'idée selon laquelle le DevOps permet de rapprocher les différents métiers pour collaborer n'est pas simple à mettre en pratique. Les métiers historiques de la sécurité des systèmes d'information (SSI) se sont vu imposer des pratiques auxquelles ils n'étaient pas habitués et qu'ils n'ont parfois pas eu le temps d'appréhender.
 
-Dans les grandes organisations, les règles de l'entreprise ou bien la loi elle-même imposent que des versions bien précises d'un logiciel soient définies pour qu'il soit qualifié[^ANSSIQualifiedSoftware] ou homologué. Imaginez alors avoir la responsabilité de faire respecter ces conditions quand les méthodes DevOps impliquent des dizaines de mise à jour logicielles chaque jour : il y a de quoi prendre peur ! Il est donc nécessaire de bien comprendre de quoi est composée une infrastructure cloud, pour correctement définir ce qu'implique sa "sécurité".
+Dans les grandes organisations, les règles de l'entreprise ou bien la loi elle-même imposent que des versions bien précises d'un logiciel soient définies pour qu'il soit qualifié[^ANSSIQualifiedSoftware] ou homologué. Imaginez alors avoir la responsabilité de faire respecter ces conditions quand les méthodes DevOps impliquent des dizaines de mises à jour logicielles chaque jour : il y a de quoi prendre peur ! Il est donc nécessaire de bien comprendre de quoi est composée une infrastructure cloud, pour correctement définir ce qu'implique sa "sécurité".
 
 La sécurité affecte tous les [piliers du DevOps](#les-piliers-du-devops-en-pratique). Ce chapitre se concentre sur une description haut-niveau des notions de la sécurité dans une approche DevOps.
 
@@ -708,7 +708,7 @@ Dans un premier temps, nous découvrirons les techniques et outils utilisés pou
 
 #### SCA
 
-Les pratiques SSI au sein des grandes organisation requièrent souvent que tout logiciel déployé soit homologué. Le document d'homologation doit lister les dépendances utilisées dans le logiciel : les librairies tiers-partie sur lesquelles il se base. Cette liste se nomme le _Software Bill of Materials_ (SBOM[^SBOM]) ou "Nomenclature du logiciel" en français.
+Les pratiques SSI au sein des grandes organisation requièrent souvent que tout logiciel déployé soit homologué. Le document d'homologation doit lister les dépendances utilisées dans le logiciel : les librairies tierce partie sur lesquelles il se base. Cette liste se nomme le _Software Bill of Materials_ (SBOM[^SBOM]) ou "Nomenclature du logiciel" en français.
 
 Le SBOM permet de rapidement répondre à des questions comme "Sommes-nous affecté ?" ou "Où est utilisée cette librairie dans nos logiciels ?", lorsqu'une nouvelle faille est découverte. Dans une approche DevOps, les librairies utilisées dans un logiciel changent au cours du temps. Une librairie ou une technologie utilisée un jour sera peut-être remplacée demain. Vous ne pouvez donc pas demander aux développeurs de lister manuellement ces centaines (voire milliers) de dépendances utilisées dans leurs logiciels.
 
@@ -853,7 +853,7 @@ L'objectif de GitHub est de faire en sorte que protéger son code ne nécessite 
 
 L'entreprise a opéré un virage stratégique en faisant l'acquisition en 2019 de _Semmle_, un outil d'analyse des vulnérabilités dans le code. Depuis, elle propose plusieurs moyens de sécuriser sa base de code :
 
-- **SCA et SAST** : outils d'analyse automatisée de vulnérabilités dans le code source et ses dépendances (ex: injections SQL, faille XSS, erreurs de configuration et autres vulnérabilités communes). GitHub inclut également une _marketplace_ permettant d'ajouter des analyseurs de code provenant de tiers-parties. Vous pouvez ajouter vos propres règles en écrivant des fichiers _CodeQL_. Vous pouvez mettre en place ces outils sur votre infrastructure, par exemple avec _GitHub Code Scanning_ (fig. <spanc/>\ref{fig:code-scanning-github}), _Klocwork_ ou encore _Checkov_.
+- **SCA et SAST** : outils d'analyse automatisée de vulnérabilités dans le code source et ses dépendances (ex: injections SQL, faille XSS, erreurs de configuration et autres vulnérabilités communes). GitHub inclut également une _marketplace_ permettant d'ajouter des analyseurs de code provenant de tierces-parties. Vous pouvez ajouter vos propres règles en écrivant des fichiers _CodeQL_. Vous pouvez mettre en place ces outils sur votre infrastructure, par exemple avec _GitHub Code Scanning_ (fig. <spanc/>\ref{fig:code-scanning-github}), _Klocwork_ ou encore _Checkov_.
 
     ![Exemple de vulnérabilité détectée par Code Scanning sur un projet GitHub.\label{fig:code-scanning-github}](./images/2020_code-scanning-github.png)
 
@@ -938,7 +938,7 @@ Des documents de référence tels que le papier de recherche _Beyondcorp_ de Goo
 
 ## Développement basé sur le _zero trust_
 
-Dans le cadre d'un environnement de développement (R&D), le sujet se complique. Pour rester innovantes, vos équipes ont besoin de flexibilité. Elles utilisent des librairies de dernière génération, installent les derniers drivers GPU pour faire des expérimentations de _machine learning_ ou encore en testent les performances de leur logiciel, avec une consommation totale ressources de leur machine.
+Dans le cadre d'un environnement de développement (R&D), le sujet se complique. Pour rester innovantes, vos équipes ont besoin de flexibilité. Elles utilisent des librairies de dernière génération, installent les derniers drivers GPU pour faire des expérimentations de _machine learning_ ou encore en testent les performances de leur logiciel, avec une consommation totale des ressources de leur machine.
 
 En résumé, vos équipes ont besoin d'un accès complet à la configuration de leur machine pour efficacement développer.
 
@@ -976,7 +976,7 @@ Il existe plusieurs moyens d'adresser la problématique des environnements de d�
 3. Machines entièrement contrôlées avec environnement de développement cloud éphémère type CodeSpace[^CodeSpace], Coder[^CoderCloud] ou Eclipse Che[^EclipseChe].
    - Cas : vous fournissez et configurez des postes de travail connectés en réseau
 4. Machines entièrement contrôlées avec VM de développement distante (ex: Shadow[^Shadow], Azure VM)
-   - Cas : vous avez accès à une infrastructure cloud gérable à distance par un tiers-partie de confiance.
+   - Cas : vous avez accès à une infrastructure cloud gérable à distance par une tierce partie de confiance.
    - Exemple : En 2014, Sogeti annonça la création de OneShare : une plateforme DevOps permettant à ses ingénieurs de créer des environnements de développement et de test, sur des VMs basées sur des _templates_ (incluant l'outillage de développement)[^SogetiDevOpsMicrosoft].
    - Remarque : Ces VMs doivent dans l'idéal inclure de l'outillage de développement. Ce moyen peut suffire si vos VMs ont accès à Internet pour faire des transferts de données et si vos postes sont reliés à la fibre. Sinon, cet environnement est absolument déconseillé.
 5. Machines entièrement contrôlées avec VM de développement locale
@@ -999,7 +999,7 @@ Plus l'on souhaite faire baisser le risque tout en augmentant la flexibilité (a
 
 ## Savoir protéger ses secrets
 
-Les administrateurs d'une infrastructure manipulent régulièrement des "secrets" : des mots de passe ou des _tokens_. Il est comment d'avoir à se les échanger entre administrateurs. Dans d'autres cas, nous pouvons avoir besoin de partager le mot de passe d'un compte à la personne concernée. Les gestionnaires de mot de passe sont un excellent moyen pour centraliser et partager ces ressources.
+Les administrateurs d'une infrastructure manipulent régulièrement des "secrets" : des mots de passe ou des _tokens_. Il est commun d'avoir à se les échanger entre administrateurs. Dans d'autres cas, nous pouvons avoir besoin de partager le mot de passe d'un compte à la personne concernée. Les gestionnaires de mot de passe sont un excellent moyen pour centraliser et partager ces ressources.
 
 Vous pouvez y gérer vos mots de passe et les partager granulairement à d'autres utilisateurs. Chacun dispose de son compte pour accéder aux secrets qu'il a le droit de voir. Il est recommandé d'en faire l'usage autant que possible.
 
@@ -1074,9 +1074,9 @@ Un rapport de l'Union Européenne[^EUOSSReport] indique qu'en 2018, les contribu
 
 Par exemple le navigateur _Firefox_, le langage de programmation _Python_ ou le système d'exploitation _Android_ n'existeraient pas sans l'open-source. Même le  symbole du logiciel propriétaire, Microsoft, débute ses contributions open-source au kernel de Linux dès 2009. En 2014, Satya NADELLA - son nouveau CEO - annonce "Microsoft aime Linux"[^MicrosoftLovesLinux]. Malgré les critiques[^GithubMsftAcquisitionCritics], l'entreprise finira même par acquérir _GitHub_ en 2018 et semble continuer de donner satisfaction[^GithubFollowingMsftAcquisition]. Elle poursuit ses contributions au profit de nombreux projets libres référencés sur son site _opensource.microsoft.com_.
 
-Néanmoins, là où l'usage de l'open-source est dans le privé est une évidence, les équipes techniques au sein de grandes organisations se confrontent parfois à la réticence de responsables de projet méfiants. Ces équipes sont mises au défi vis-à-vis de leur utilisation des technologies open-source sur base de préoccupations de sécurité.
+Néanmoins, là où l'usage de l'open-source dans le privé est une évidence, les équipes techniques au sein de grandes organisations se confrontent parfois à la réticence de responsables de projet méfiants. Ces équipes sont mises au défi vis-à-vis de leur utilisation des technologies open-source sur base de préoccupations de sécurité.
 
-Cette mise en doute n'est pas dénuée de sens. L'idée d'importer la librairie d'un tiers-partie au sein de son système d'information et sans même regarder ce qu'il contient peut sembler risqué. Les risques peuvent être les suivants :
+Cette mise en doute n'est pas dénuée de sens. L'idée d'importer la librairie d'une tierce partie au sein de son système d'information et sans même regarder ce qu'elle contient peut sembler risqué. Les risques peuvent être les suivants :
 
 - Une librairie supprimant arbitrairement des données
 - Une librairie transmettant des données à un serveur distant (données logicielles, télémétrie)
@@ -1126,9 +1126,9 @@ Ce sujet est vaste et les pratiques diffèrent selon la taille de l'organisation
 
 # Les piliers du DevOps en pratique
 
-Ca y est, nous atteignons le cœur du sujet. Dans ce chapitre, nous allons découvrir les différents piliers du DevOps, en décrivant les différentes pratiques et technologies qui peuvent répondre à nos enjeux.
+Ça y est, nous atteignons le cœur du sujet. Dans ce chapitre, nous allons découvrir les différents piliers du DevOps, en décrivant les différentes pratiques et technologies qui peuvent répondre à nos enjeux.
 
-En terme d'organisation, voyez le DevOps comme un moyen d'appliquer une "saine pression" à vos équipes, de sorte à inciter chacun à avancer dans la même direction. Ils'agit de faire communiquer tout le monde de manière optimale, au moyen d'outils techniques standardisés.
+En terme d'organisation, voyez le DevOps comme un moyen d'appliquer une "saine pression" à vos équipes, de sorte à inciter chacun à avancer dans la même direction. Il s'agit de faire communiquer tout le monde de manière optimale, au moyen d'outils techniques standardisés.
 
 ## Réduire les silos organisationnels
 
@@ -1140,7 +1140,7 @@ La création d'un silo est souvent nécessaire pour répondre à un besoin d'exp
 
 Les silos indésirables se créent quand l'entreprise ne fournit pas aux équipes les outils dont elles ont besoin pour travailler correctement. Des initiatives individuelles se créent alors pour trouver des alternatives plus efficaces. C'est une réaction "immunitaire" attendue quand des employés subissent une dégradation de leurs conditions de travail.
 
-Par exemple, votre centre d'expertise prend de l'âge et ne renouvelle pas ses outils. Face à une charge de travail toujours plus importante et à l'inaction de l'entreprise, les employés historiques commencent à être exaspérés. Certains se découragent à l'idée de discuter avec des responsables peu réceptifs. D'autres essaient d'introduire de nouvelles pratiques, mais se heurtent à des refus catégoriques. Enfin, de nouveaux employés intègrent les équipes et constatent leurs conditions de travail ne sont pas à la hauteur de ce qu'ils espéraient. Ayant connaissance d'un logiciel redoutablement efficace, le nouvel employé en instaure un nouveau. Ce dernier gagne en popularité grâce à son irrésistible efficacité et se propage dans le centre, puis dans l'entreprise. Bien sûr, l'employé n'en parlera pas à sa hiérarchie qui risquerait de lui reprocher son audace et d'interdire son nouvel outil.
+Par exemple, votre centre d'expertise prend de l'âge et ne renouvelle pas ses outils. Face à une charge de travail toujours plus importante et à l'inaction de l'entreprise, les employés historiques commencent à être exaspérés. Certains se découragent à l'idée de discuter avec des responsables peu réceptifs. D'autres essaient d'introduire de nouvelles pratiques, mais se heurtent à des refus catégoriques. Enfin, de nouveaux employés intègrent les équipes et constatent que leurs conditions de travail ne sont pas à la hauteur de ce qu'ils espéraient. Ayant connaissance d'un logiciel redoutablement efficace, le nouvel employé en instaure un nouveau. Ce dernier gagne en popularité grâce à son irrésistible efficacité et se propage dans le centre, puis dans l'entreprise. Bien sûr, l'employé n'en parlera pas à sa hiérarchie qui risquerait de lui reprocher son audace et d'interdire son nouvel outil.
 
 La hiérarchie n'ayant pas anticipé le déclin ni prêté attention aux remarques internes, elle lance un projet de transformation. En parallèle, l'initiative isolée lancée sans en informer la hiérarchie provoque des conflits de périmètre et des objectifs confus. La hiérarchie perd peu à peu pied avec ses équipes, n'étant pas au courant qu'elles ont adopté de nouvelles pratiques. Le manque de communication avec le reste des collaborateurs et la duplication des efforts se font alors ressentir. C'est la conséquence d'un manque de cohérence globale. Voilà un terreau fertile pour une résistance au changement, face à la réaction trop tardive de l'entité dirigeante.
 
@@ -1167,7 +1167,7 @@ En ayant une vue d'ensemble claire et étayée de la manière dont est organisé
 
 ### Un réseau unique
 
-Imaginez quelques instants des équipes de data-scientists au sein de chacun des bureaux de votre organisation. Superbe ! Tous les métiers ont un appui technique dédié pour traiter leurs données. Mais rapidement, ces équipes d'ingénieurs discutent entre elles et se rendent compte qu'elles travaillent sur les mêmes sujets. Elles se rendent compte qu'elle développement les mêmes choses. C'est frustrant pour elles, mais cela signifie surtout pour l'entreprise qu'elle perd de l'argent.
+Imaginez quelques instants des équipes de data-scientists au sein de chacun des bureaux de votre organisation. Superbe ! Tous les métiers ont un appui technique dédié pour traiter leurs données. Mais rapidement, ces équipes d'ingénieurs discutent entre elles et se rendent compte qu'elles travaillent sur les mêmes sujets. Elles se rendent compte qu'elles développent les mêmes choses. C'est frustrant pour elles, mais cela signifie surtout pour l'entreprise qu'elle perd de l'argent.
 
 Si personne n'a idée de ce sur quoi l'autre travaille, les efforts seront naturellement dupliqués. Dans les grandes organisations, les besoins sont souvent systémiques : les bureaux rencontrent les mêmes problèmes, à quelques détails près. Problèmes auxquels des solutions techniques mutualisées peuvent souvent répondre pour 90% des cas d'usage.
 
@@ -1293,7 +1293,7 @@ Plusieurs méthodes ont émergé au cours du temps[^TrunkBaseDevHistory] mais il
     ![Exemple de Gitflow. Source : fpy.cz (Filip PYTLOUN).\label{fig:gitflow}](./images/gitflow.png)
 
 - **_GitHub flow_ / _GitLab flow_** : Cette méthode élimine la complexité apportée par le _Gitflow_ en supprimant ses 5 branches parallèles à la branche principale (fig. <spanc/>\ref{fig:gitlab-flow}).
-  
+
     Un développeur doit créer une branche par nouvelle fonctionnalité, à partir de la branche principale. Une _release_ peut être créée à n'importe quel moment à partir de la branche principale. Au delà de sa simplicité, l'intérêt est d'avoir une branche qui contient un code fonctionnel en permanence et de savoir qu'il est à jour à tout moment.
 
     ![Exemple de flow GitLab. Source : gitlab.com.\label{fig:gitlab-flow}](./images/gitlab-flow.png)
@@ -1394,9 +1394,9 @@ Pour présenter cette méthodologie à vos équipes et retrouver facilement les 
 
 ### Méthodologie à 12 critères
 
-Les technologies Cloud apportent une flexibilité indéniable et donnent la possibilité de servir toujours plus de clients par rapport aux technologies traditionnelles. Mais passer d'un logiciel monolithique à un applicatif capables de passer à l'échelle, nécessite de respecter quelques règles lors de sa conception.
+Les technologies Cloud apportent une flexibilité indéniable et donnent la possibilité de servir toujours plus de clients par rapport aux technologies traditionnelles. Mais passer d'un logiciel monolithique à un applicatif capable de passer à l'échelle, nécessite de respecter quelques règles lors de sa conception.
 
-La méthodologie à 12 critères (_Twelve-Factor Methodology_) regroupe une liste de bonnes pratiques pour créer des applicatifs adaptés aux plateformes Cloud. Elle constitue la synthèse de l'expérience vécue par Adam WIGGINS et ses ingénieurs à _Heroku_. L'objectif est d'éviter "l'érosion logicielle"[^SoftwareErosion], un phénomène définit par la lente détérioration des logiciels au fil du temps, qui finissent par devenir défectueux ou inutilisables. En d'autres termes, cela permet de créer des applications plus faciles à maintenir, à déployer, à mettre à l'échelle et plus résistants aux pannes.
+La méthodologie à 12 critères (_Twelve-Factor Methodology_) regroupe une liste de bonnes pratiques pour créer des applicatifs adaptés aux plateformes Cloud. Elle constitue la synthèse de l'expérience vécue par Adam WIGGINS et ses ingénieurs à _Heroku_. L'objectif est d'éviter "l'érosion logicielle"[^SoftwareErosion], un phénomène définit par la lente détérioration des logiciels au fil du temps, qui finissent par devenir défectueux ou inutilisables. En d'autres termes, cela permet de créer des applications plus faciles à maintenir, à déployer, à mettre à l'échelle et plus résistantes aux pannes.
 
 Le site Internet _12factor.net_, créé par Adam WIGGINS, liste et détaille ces règles :
 
@@ -1506,7 +1506,7 @@ Prendre la décision de passer en microservice est tentant mais implique des com
 - Être en mesure de déployer rapidement (cf. chapitre "[Tirer parti de l'automatisation](#tirer-parti-de-lautomatisation)")
 - Être outillé pour surveiller ses services (cf. chapitre "[Tout mesurer](#tout-mesurer)")
 
-En sommes, nous parlons ici des technologies Cloud et des techniques DevOps. A ce stade, vous souhaitez seulement valider le processus de développement d'un microservice et savoir le déployer automatiquement.
+En sommes, nous parlons ici des technologies Cloud et des techniques DevOps. À ce stade, vous souhaitez seulement valider le processus de développement d'un microservice et savoir le déployer automatiquement.
 
 Pour vous entraîner à créer des microservices, découplez une première fonctionnalité qui n'a pas besoin d'être modifiée partout dans votre logiciel. Par exemple, le mécanisme d'authentification d'une application est souvent centralisé dans une classe ou une fonction : créez et interfacez ce microservice.
 
@@ -1540,7 +1540,7 @@ L'un de ses premiers conseils est d'éviter la création de microservices qui vo
 
 L'objectif est d'éviter un cercle vicieux de modifications qui ne vont qu'enrichir le monolithe. Voilà pourquoi il faut rapidement s'attaquer au coeur du logiciel. Commencez par en découper les fonctions les plus intégrées et qui traitent les données principales de votre projet.
 
-Priorisez le découpage des fonctions difficiles à découpler par domaine logique (ex: la gestion des produits puis celle des commandes). Puis concentrez-vous sur les parties du logiciels les plus fréquemment mises à jour.
+Priorisez le découpage des fonctions difficiles à découpler par domaine logique (ex: la gestion des produits puis celle des commandes). Puis concentrez-vous sur les parties du logiciel les plus fréquemment mises à jour.
 
 <!-- markdownlint-disable MD029 -->
 4. **Découper le logiciel par domaine logique et prioriser les fonctions les plus complexes au début.**
@@ -1582,7 +1582,7 @@ Le biais rétrospectif est la tendance d'un individu à surestimer sa capacité 
 
 La notion de "décharge d'inconfort" fait référence au phénomène neurobiologique, selon lequel nous blâmons les gens pour nous décharger d'une douleur mentale. La sociologue Brené BROWN déclare que les humains le font contre leur gré, naturellement, mais que blâmer entrave notre capacité à apprendre de nos erreurs[^BrenéBROWNVideoOnBlame].
 
-Dans une organisations qui n'est pas à l'aise avec l'échec, les collaborateurs auront tendance à cacher des informations ou ne pas déclarer d'incident car ils craindront d'être punis. Pour la même raison ou par peur d'être considérés ridicules, ils auront peur de poser des questions pouvant mener à identifier les causes d'un problème. Or, les erreurs ne sont des opportunités de s'améliorer que si leurs causes véritables sont identifiées. Ceci n'est possible que dans un environnement de travail psychologiquement sûre.
+Dans une organisations qui n'est pas à l'aise avec l'échec, les collaborateurs auront tendance à cacher des informations ou ne pas déclarer d'incident car ils craindront d'être punis. Pour la même raison ou par peur d'être considérés ridicules, ils auront peur de poser des questions pouvant mener à identifier les causes d'un problème. Or, les erreurs ne sont des opportunités de s'améliorer que si leurs causes véritables sont identifiées. Ceci n'est possible que dans un environnement de travail psychologiquement sûr.
 
 Une organisation qui tient compte de la sécurité psychologique considère que :
 
@@ -1721,7 +1721,7 @@ Voici les 5 étapes de la _Root Cause Analysis_ :
     | Quoi ?        | Description ou la définition du problème                                                            |
     | Quand ?       | Date et l'heure à laquelle le problème a été identifié                                              |
     | Où ?          | Localisation des plaintes (zone, équipement ou clients en question)                                 |
-    | Pourquoi ?    | Toute explication connue antérieuremen                                                              |
+    | Pourquoi ?    | Toute explication connue antérieurement                                                             |
     | Comment ?     | Comment le problème est-il survenu (cause racine) et comment il va être corrigé (action corrective) |
     | Combien ?     | Gravité et fréquence du problème                                                                    |
 
@@ -1731,11 +1731,11 @@ Voici les 5 étapes de la _Root Cause Analysis_ :
 
     Des outils comme [OpenRCA](https://openrca.io/), [OpenStack Vitrage](https://opendev.org/openstack/vitrage) ou [Datadog](https://datadoghq.com) peuvent vous aider à identifier la cause d'un problème en mettant en évidence les anomalies au sein de votre infrastructure.
 
-    A cette étape, vous ne connaissez pas la gravité du problème, seulement ses symptômes.
+    À cette étape, vous ne connaissez pas la gravité du problème, seulement ses symptômes.
 
 2. **Contenir et analyser le problème**
 
-    Toujours commencer pas résoudre le problème. Rétablir au plus tôt le service pour éviter qu'il ne dégénère, même si la solution est temporaire ou qu'elle n'est pas considérée "propre".
+    Toujours commencer par résoudre le problème. Rétablir au plus tôt le service pour éviter qu'il ne dégénère, même si la solution est temporaire ou qu'elle n'est pas considérée "propre".
 
     La confiance que vos utilisateurs portent à l'égard de votre service, est liée à votre réactivité dans votre réponse à incident. Vos utilisateurs ne s'attendent pas à 100% de disponibilité, mais ils s'attendent à une communication claire en cas d'incident. Cette transparence est fondamentale.
 
@@ -1743,7 +1743,7 @@ Voici les 5 étapes de la _Root Cause Analysis_ :
 
     ![Exemple de _status page_ Atlassian avec incident, état des services et prévision d'opération de maintenance. Source : _atlassian.com/software/statuspage/feature_.\label{fig:2023_atlassian_statuspage}](./images/2023_atlassian_statuspage.png)
 
-    A chaque mise à jour du status de l'incident, communiquer sur :
+    À chaque mise à jour du status de l'incident, communiquer sur :
 
     - La situation actuelle et l'impact mesuré
     - Ce qu'on sait du problème / ce qui a changé
@@ -1753,7 +1753,7 @@ Voici les 5 étapes de la _Root Cause Analysis_ :
 
     > La suite [_Beats_ de Elastic](https://www.elastic.co/fr/beats/) est un exemple d'outil permettant de surveiller son infrastructure. Nous découvrirons l'étendue de ces technologies dans le chapitre "[Tout mesurer](#tout-mesurer)".
 
-    A cette étape, vous devez trouver une action immédiate. Par exemple, un industriel fabriquant des pièces pourrait décider de ré-inspecter celles prêtes à l'expédition, les retravailler ou faire un rappel. Pour un logiciel, l'idée est de trouver une manière de rétablir le service, souvent en poussant un correctif rapide (_hotfix_ en anglais).
+    À cette étape, vous devez trouver une action immédiate. Par exemple, un industriel fabriquant des pièces pourrait décider de ré-inspecter celles prêtes à l'expédition, les retravailler ou faire un rappel. Pour un logiciel, l'idée est de trouver une manière de rétablir le service, souvent en poussant un correctif rapide (_hotfix_ en anglais).
 
     Votre équipe SRE doit s'assurer que les correctifs déployés fonctionnent. Ils peuvent le faire en lançant des tests pilotes[^PilotTests] qu'ils auront préparé au préalable.
 
@@ -1876,7 +1876,7 @@ Grâce ce type de logiciel, vos SREs disposeront d'une liste de problèmes facil
 
 #### Le postmortem pour fidéliser et attirer
 
-Comme évoqué dans le chapitre "[Investiguer les incidents](#investiguer-les-incidents)", publier ses travaux publiquement permet de voir son travail reconnu par la communauté. Cette pratique améliore aussi la fidélisation en faisant permettant au collaborateur de développer sa notoriété.
+Comme évoqué dans le chapitre "[Investiguer les incidents](#investiguer-les-incidents)", publier ses travaux publiquement permet de voir son travail reconnu par la communauté. Cette pratique améliore aussi la fidélisation en permettant au collaborateur de développer sa notoriété.
 
 > Le vidéaste Bastien MARÉCAUX (connu sous le pseudo _Basti UI_) introduit la notion de "télétralive", mix de "télétravail" et de "live". Il diffuse publiquement des sessions de travail en direct sur la plateforme Twitch, pour ses clients l'ayant accepté[^Teletralive]. Cela démontre l'importance que peut apporter le fait de publier son travail. Une tendance qui pourrait prendre de l'ampleur à l'avenir.
 
@@ -1920,7 +1920,7 @@ La définition et l'organisation des rôles doit faire partie de votre procédur
 
 ### L'importance de la communication
 
-Communiquer est essentiel, que ce soit auprès de vos clients ou de vos équipes internes. A l'occasion d'un incident de grande envergure, Datadog pointe dans son postmortem[^DatadogMarch2023PM] l'importance de communiquer tôt les pannes, à la fois à ses clients et ses équipes internes. Voici quelques enseignements qu'ils ont su en tirer :
+Communiquer est essentiel, que ce soit auprès de vos clients ou de vos équipes internes. À l'occasion d'un incident de grande envergure, Datadog pointe dans son postmortem[^DatadogMarch2023PM] l'importance de communiquer tôt les pannes, à la fois à ses clients et ses équipes internes. Voici quelques enseignements qu'ils ont su en tirer :
 
 Dans le cas d'un incident n'étant pas encore totalement identifié et affectant différemment vos clients (ex: selon leur localisation ou le produit utilisé), la règle est de communiquer sur le problème ayant les "pires symptômes". Pour éviter de frustrer vos clients et de passer trop de temps à communiquer sur chaque zone ou chaque produit, vous devez décider de communiquer au plus tôt, sur la zone ou le produit le plus impacté. Par exemple, si la zone "UE" a des symptômes plus importants que la zone "US" de vos datacentres, communiquez sur les symptômes de la zone "UE" : vous ne savez pas encore si la panne est globale, si elle va se propager ou si elle n'impacte qu'une seule zone. Indiquez clairement que la zone "US" est possiblement impactée de la même manière que la zone "UE".
 
@@ -2033,24 +2033,24 @@ Par exemple, Windows 10 (sorti en 2015) n'est qu'une [évolution de Windows NT](
 
 Voici quelques parallèles concernant le Cloud :
 
-- Un conteneur n'est qu'une petite VM plus flexible. Elle se gère avec des commandes différentes, la nomenclature n'est pas la même, mais les concepts restent identique : un OS (image) à partir duquel le conteneur est créé, un réseau configurable ou encore la possibilité d'ajouter du stockage.
+- Un conteneur n'est qu'une petite VM plus flexible. Elle se gère avec des commandes différentes, la nomenclature n'est pas la même, mais les concepts restent identiques : un OS (image) à partir duquel le conteneur est créé, un réseau configurable ou encore la possibilité d'ajouter du stockage.
 - Un orchestrateur n'est qu'un hyperviseur géré avec des commandes différentes. Mais ses composantes restent identiques : politiques réseau configurable entre les conteneurs/VMs, gestion du stockage avec des _datastores_ sur VMWare en place des _PersistentVolumes_ sur Kubernetes ou encore le _NSX Controller_ sur VMWare en place du _Ingress Controller_ sur Kubernetes.
 - Il existe cependant des évolutions particulières, qu'il convient seulement d'admettre (comme pour les théorèmes mathématiques) : cf. chapitre "[Un socle au service de votre résilience](#un-socle-au-service-de-votre-résilience)".
 - Les micro-services ne sont qu'une division des logiciels traditionnels en plusieurs briques indépendantes. Chaque brique peut être passée à l'échelle en fonction de la charge utilisateur.
 
 Les VMs traditionnelles ont aussi leur place dans une infrastructure Cloud DevOps, elles peuvent en faire partie (cf. chapitre "[Abandonner les VMs ?](#abandonner-les-vms-)").
 
-A ces évolutions technologiques s'ajoutent des méthodologies pour maîtriser la dette technique, accélérer les déploiements et maintenir un niveau de résilience élevé : une forge logicielle, le gitops, l'intégration continue, le déploiement continu, les postmortems... C'est le DevOps.
+À ces évolutions technologiques s'ajoutent des méthodologies pour maîtriser la dette technique, accélérer les déploiements et maintenir un niveau de résilience élevé : une forge logicielle, le gitops, l'intégration continue, le déploiement continu, les postmortems... C'est le DevOps.
 
 En définissant les méthodologies vues dans ce livre et en utilisant des technologies dont l'administration est standardisées (ex: Kubernetes), vous diviserez à terme les coûts d'administration.
 
 ### Eviter les erreurs de conception
 
-Comme évoqué dans le chapitre "[Être au plus proche du métier](#être-au-plus-proche-du-métier)", il est courant de ne pas répondre au besoin initialement exprimé avec les méthodes traditionnelles. Figer le besoin à l'instant T n'est pas un moyen fiable de livré le produit attendu. Le besoin évolue continuellement et le client ne sait souvent pas exprimer exactement ce dont il a besoin.
+Comme évoqué dans le chapitre "[Être au plus proche du métier](#être-au-plus-proche-du-métier)", il est courant de ne pas répondre au besoin initialement exprimé avec les méthodes traditionnelles. Figer le besoin à l'instant T n'est pas un moyen fiable de livrer le produit attendu. Le besoin évolue continuellement et le client ne sait souvent pas exprimer exactement ce dont il a besoin.
 
 La méthodologie Agile vise à réduire ce risque en proposant plusieurs cycles courts de livraison (_sprints_). À chaque cycle, le client fournit ses retours. Cette boucle est rejouée jusqu'à ce que le projet convienne au client ou que le contrat prenne fin. Le DevOps vient outiller l'entreprise pour fluidifier les interactions. Dans les entreprises les plus performantes, les _sprints_ ne sont plus qu'un détail contractuel pour échanger sur les avancées : le logiciel, lui, est déjà en production et prêt à être utilisé.
 
-Au contraire, cette méthodologie permet d'éviter de se faire piéger par des clients trop spécifiques dans leurs demande. Certains sont convaincus de la manière dont le logiciel devrait être conçu pour qu'il réponde le mieux à sa besoin. Or la suggestion faite n'est peut-être pas l'option la plus adaptée. Au cours de vos différentes livraisons, le client aura toujours une suggestion à faire ou un détail qu'il aura oublié de vous communiquer. Ces détails - plus ou moins grands - s'accumulent avec le temps et peuvent mener à des délais démesurés.
+Au contraire, cette méthodologie permet d'éviter de se faire piéger par des clients trop spécifiques dans leurs demande. Certains sont convaincus de la manière dont le logiciel devrait être conçu pour qu'il réponde le mieux à son besoin. Or la suggestion faite n'est peut-être pas l'option la plus adaptée. Au cours de vos différentes livraisons, le client aura toujours une suggestion à faire ou un détail qu'il aura oublié de vous communiquer. Ces détails - plus ou moins grands - s'accumulent avec le temps et peuvent mener à des délais démesurés.
 
 Si un logiciel est voué à changer en profondeur les habitudes de son récipiendaire, le livrer tôt est nécessaire pour qu'il s'acculture progressivement aux changements qui vont lui être imposés. Il pourra par exemple faire évoluer ses procédures internes, recruter les profils adaptés et préparer sa stratégie de communication. Cela évitera les frustrations et permettra de garantir un livrable au plus proche du besoin métier.
 
@@ -2092,7 +2092,7 @@ Il n'est pas obligatoire de créer le logiciel de A à Z avant de le confronter 
 
 Une bonne culture s'entretient par la connaissance des techniques à l'état de l'art. Les compétences techniques de vos équipes constituent le terreau de votre organisation et forgent leur confiance à l'égard de votre résilience.
 
-La formation continue est un moyen simple d'éviter à votre organisation de perdre des millions d'euros chaque année. En effet, si votre personnel reste formé à l'état de l'art des technologies, ils sera moins susceptibles de se faire duper par des tiers-parties. Ces derniers arrivent souvent promettre "la solution idéale" au travers de présentations flatteuses et particulièrement ambitieuses. Des présentations qui ne manquent pas de cacher, la plupart du temps, un service non abouti ou complètement déficient. En restant à jour, vos collaborateurs prendront de meilleures décisions pour votre porte monnaie et le futur de votre organisation.
+La formation continue est un moyen simple d'éviter à votre organisation de perdre des millions d'euros chaque année. En effet, si votre personnel reste formé à l'état de l'art des technologies, ils sera moins susceptibles de se faire duper par des tierces parties. Ces dernières arrivent souvent à promettre "la solution idéale" au travers de présentations flatteuses et particulièrement ambitieuses. Des présentations qui ne manquent pas de cacher, la plupart du temps, un service non abouti ou complètement déficient. En restant à jour, vos collaborateurs prendront de meilleures décisions pour votre porte monnaie et le futur de votre organisation.
 
 Mais garder le rythme n'est pas simple, surtout à la vitesse à laquelle les technologies évoluent. Raison de plus pour mettre en place de bonnes pratiques de formation dès l'arrivée de vos collaborateurs.
 
@@ -2102,7 +2102,7 @@ L'_United States Air Force_ (USAF) s'est mise depuis 2019 en ordre de bataille e
 
 > « C'est _(la formation est)_ un investissement pour l'entreprise et pour eux-mêmes. Les gens qui ne veulent pas apprendre d'eux-même n'ont pas beaucoup de chance de réussir en informatique. De toute façon, l'industrie bouge tellement vite qu'ils n'ont pas le choix. » - Nicolas CHAILLAN
 
-À l'instar de l'USAF, la solution suivante avait bien fonctionné dans l'une de mes dernières expériences : nous avions réussi à obtenir un jour de télétravail par semaine. Le faire accepter à nos responsables n'était pas simple, mais ils ont fini par l'accorder après un temps certain à leur en faire comprendre le bien-fondé. Ce jour était dédié à notre formation continue en tant qu'expert en IA, data et DevOps. Mais nous étions outillé et nos progrès pouvaient être mesurés : un accès quasi-illimité à un service Cloud et à une plateforme de _e-learning_. Cette dernière permettait à notre hiérarchie de visualiser les statistiques sur le temps passé à se former et les cours achevés. Le coût de ces deux services était minime par rapport à toutes les connaissances qu'ils nous conféraient.
+À l'instar de l'USAF, la solution suivante avait bien fonctionné dans l'une de mes dernières expériences : nous avions réussi à obtenir un jour de télétravail par semaine. Le faire accepter à nos responsables n'était pas simple, mais ils ont fini par l'accorder après un temps certain à leur en faire comprendre le bien-fondé. Ce jour était dédié à notre formation continue en tant qu'expert en IA, data et DevOps. Mais nous étions outillés et nos progrès pouvaient être mesurés : un accès quasi-illimité à un service Cloud et à une plateforme de _e-learning_. Cette dernière permettait à notre hiérarchie de visualiser les statistiques sur le temps passé à se former et les cours achevés. Le coût de ces deux services était minime par rapport à toutes les connaissances qu'ils nous conféraient.
 
 Si vous avez déjà des équipes techniques à votre main, donnez leur la possibilité d'expérimenter, de pratiquer. C'est ce que j'ai observé de plus efficace (donc rentable) pour l'organisation : investissez du temps dans la formation de votre personnel. Par exemple, donnez-leur accès à des machines ou des hébergeurs Cloud pour expérimenter les dernières innovations du privé ou issues de l'open-source. Vos équipes seront ravies d'avoir accès à ces services, pendant que la direction sera assurée d'être conseillée au mieux, grâce à des collaborateurs à jour.
 
@@ -2145,8 +2145,8 @@ Cette pratique comporte plusieurs avantages :
 
 - **Documentation** : les scripts d'IaC sont écrits dans des langages de programmation ou à l'aide de fichiers de configuration standardisés. L'ingénieur consultant le projet peut directement voire comment se comporte la configuration et comment il peut l'utiliser ou la modifier.
 - **Fiabilité** : les scripts d'IaC peuvent être lancés par des machines ou des humains, selon l'environnement souhaité (développement, staging, production) en suivant des règles algorithmiques. Il n'y a rien de plus fiable qu'un code exécuté par une machine plutôt qu'un humain. Il est également possible d'appliquer un contrôle de sécurité selon l'utilisateur qui lance ces scripts.
-- **Rejeux** : tout script d'IaC se doit d'être idempotent, c'est-à-dire que lancer un ou plusieurs fois le même script doit produire le même effet sur l'infrastructure. Il est donc plus rapide de développer et modifier ce genre de scripts vis-à-vis de scripts traditionnels.
-- **Versionnage** : les scripts d'IaC – comme tout autre algorithme – peuvent être versionnés. Cela permet de traquer leurs modifications au cours du temps et d'être critiqués par l'ensemble des équipes techniques au cours du temps.
+- **Rejeux** : tout script d'IaC se doit d'être idempotent, c'est-à-dire que lancer une ou plusieurs fois le même script doit produire le même effet sur l'infrastructure. Il est donc plus rapide de développer et modifier ce genre de scripts vis-à-vis de scripts traditionnels.
+- **Versionnage** : les scripts d'IaC – comme tout autre algorithme – peuvent être versionnés. Cela permet de traquer leurs modifications et d'être critiqués par l'ensemble des équipes techniques au cours du temps.
 
 Des exemples courants de technologies permettant de réaliser ces actions sont : Ansible, Terraform, Puppet ou encore SaltStack.
 
@@ -2164,7 +2164,7 @@ Gardez en tête que maintenir une infrastructure est une tâche complexe, donc _
 
 ### Développement piloté par tests
 
-Le développement piloté par tests (ou _test-driven development_ (TDD) en anglais) est une pratique de développement logiciel qui remonte [au début des années 2000](https://en.wikipedia.org/wiki/Test-driven_development). L'objectif est de maîtriser l'érosion d'un logiciel[^SoftwareErosion]. C'est à dire éviter la régression du logiciel et maîtriser sa dette technique au cours du temps. Ou dit plus simplement : éviter les bugs à mesure que les contributions s'accumulent.
+Le développement piloté par tests (ou _test-driven development_ (TDD) en anglais) est une pratique de développement logiciel qui remonte [au début des années 2000](https://en.wikipedia.org/wiki/Test-driven_development). L'objectif est de maîtriser l'érosion d'un logiciel[^SoftwareErosion], c'est à dire éviter sa régression et maîtriser sa dette technique au cours du temps. Ou dit plus simplement : éviter les bugs à mesure que les contributions s'accumulent.
 
 L'idée est de coder les tests avant de développer sa fonctionnalité. Le cycle de développement en TDD est le suivant[^BeckKentTDDBook] :
 
@@ -2286,7 +2286,7 @@ Les journaux d'activité (_logs_), les métriques (_metrics_) et les traces (_tr
 
 L'observabilité est un sujet très vaste dans le domaine de la fiabilité des systèmes[^DistributedSystemsObservabilityBook]. Nous ne survolerons que les essentiels dans ce chapitre.
 
-Le domaine de l'observabilité peut être résumé comme l'ensemble des outils et des pratiques permettant aux ingénieurs de détecter, diagnostiquer et résoudre les problèmes d'un système (bugs, lenteurs, disponibilité), le plus rapidement possible. Au delà du besoin de résilience, la récolte de certaines de ces données est parfoise requise par la loi[^ANSSIGuideJournalisation].
+Le domaine de l'observabilité peut être résumé comme l'ensemble des outils et des pratiques permettant aux ingénieurs de détecter, diagnostiquer et résoudre les problèmes d'un système (bugs, lenteurs, disponibilité), le plus rapidement possible. Au delà du besoin de résilience, la récolte de certaines de ces données est parfois requise par la loi[^ANSSIGuideJournalisation].
 
 Examinons de plus près ce que chacune de ces données peut nous apprendre :
 
@@ -2323,7 +2323,7 @@ Pour mieux se représenter la temporalité de la requête, les _logs_ d'une _tra
 
 ![Exemple de trace traitée par Jaeger pour un appel API entre un client et un serveur. Les espacements entre les spans bleues et orange sont dus au temps que prend la communication HTTP entre les deux services. Il n'y a pas de log émis à ce moment.\label{fig:2022_jaeger_trace}](./images/2022_jaeger_trace.png)
 
-Les traces sont indépendamment remontées par des librairies comme le SDK d'OpenTelemetry. Ces dernières les envoit à un collecteur de traces comme Jaeger, Tempo ou Zipkin pour qu'elles soient validées, nettoyées et/ou enrichies. Elles sont ensuite stockées dans des serveurs de logs centralisés, comme Prometheus ou Elasticsearch. L'identifiant de la trace nous permet de retrouver la chronologie des opérations par lesquelles elle est passé.
+Les traces sont indépendamment remontées par des librairies comme le SDK d'OpenTelemetry. Ces dernières les envoit à un collecteur de traces comme Jaeger, Tempo ou Zipkin pour qu'elles soient validées, nettoyées et/ou enrichies. Elles sont ensuite stockées dans des serveurs de logs centralisés, comme Prometheus ou Elasticsearch. L'identifiant de la trace nous permet de retrouver la chronologie des opérations par lesquelles elle est passée.
 
 Le plus grand défi du traçage est son intégration au sein d'une infrastructure existante. En effet, pour que les traces soient pleinement utiles, il faut que chaque composant par lequel passe la requête émette un log et propage les informations de traçage à son tour. Moins précis que s'il était directement intégré à un logiciel, le traçage via _service mesh_ peut être un moyen rapide de disposer des fonctionnalités de traçage sans avoir à modifier le code de ses logiciels[^ServiceMeshTraces]. Nous verrons ce qu'est un _service mesh_ et comment cette technologie fonctionnent dans le chapitre "[Service mesh](#service-mesh)".
 
@@ -2335,7 +2335,7 @@ En mettant en place des mécanismes d'observabilité, vous pourrez répondre plu
 
 ### Savoir quand innover et quand s'arrêter
 
-A première vue, il n'est pas évident de savoir où mettre le curseur entre les travaux de résilience et d'innovation. L'idée est donc de mesurer l'état des services pour savoir quand on s'autorise à innover.
+À première vue, il n'est pas évident de savoir où mettre le curseur entre les travaux de résilience et d'innovation. L'idée est donc de mesurer l'état des services pour savoir quand on s'autorise à innover.
 
 Mesurer est une chose, mais encore faut-il mesurer les bonnes choses, au bon niveau. Dans une infrastructure distribuée, l'un des serveurs peut tomber en panne sans nécessairement impacter la disponibilité d'un logiciel pour vos clients. Mesurer la disponibilité d'un serveur est peut-être intéressant pour vos techniciens, mais peut-être n'est-elle pas la bonne mesure pour connaître l'impact du dysfonctionnement sur l'utilisateur. C'est cela que votre organisation doit définir :
 
@@ -2346,7 +2346,7 @@ Pour la deuxième question, vous ne pouvez pas répondre "100%". Si vous mettez 
 
 Le budget d'erreur est la quantité de temps sur une période donnée que votre entreprise accorde à vos équipes, durant lequel vos services peuvent être indisponibles. Tant que la disponibilité de votre service dépasse l'indisponibilité tolérée, vous pouvez en profiter pour déployer un nouveau service majeur, en forte interaction avec les autres, ou encore mettre à jour un système critique. Mais ce budget est essentiel pour faire face à des dysfonctionnements matériels nécessitant un remplacement, ou pour intervenir sur un système lors d'une interruption planifiée.
 
-Par exemple, si votre budget d'erreur est de 54 minutes par semaine et que vous ne dépassez pas 10 minutes depuis 3 semaines, permettez-vous de prendre davantage de risques. Si c'est l'inverse, travaillez à rendre votre infrastructure plus résiliente.
+Par exemple, si votre budget d'erreur est de 54 minutes par semaine et que vous ne dépassez pas 10 minutes depuis 3 semaines, permettez-vous de prendre davantage de risques ? Si c'est l'inverse, travaillez à rendre votre infrastructure plus résiliente.
 
 En somme, le budget d'erreur est un accord entre la direction et les équipes techniques, aidant à prioriser les travaux d'innovation vis-à-vis des travaux améliorant la résilience de l'infrastructure.
 
@@ -2449,7 +2449,7 @@ L'accord de niveau de service (_Service Level Agreement_ ou SLA) est un contrat 
 - En dessous de 99.5% de disponibilité, AWS commence à rembourser ses clients [d'instances _EC2_](https://aws.amazon.com/compute/sla). Entre 99.9% et 99% de disponibilité, le client est remboursé à hauteur de 10% des dépenses. En dessous de 95%, il est remboursé à 100%.
 - En dessous de 99.9% de disponibilité, Microsoft commence à rembourser ses [clients _Teams_](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=13). En dessous de 99.9%, le client obtient un avoir à hauteur de 25% de ses dépenses. En dessous de 95%, il obtient un avoir pour 100% de ses dépenses.
 
-Les SLAs ne sont pas rendus obligatoires en France par la loi. Néanmoins ils peuvent faire partie de votre contrat de service, pour clarifier vos engagements et éviter les litiges. En effet, il est toujours préférable de lister des conditions claires pour lesquelles vous et votre client vous êtes engagés. Les SLAs sont également un avantage concurrentiel : votre entreprise s'engage à fournir une certaine qualité de service, là où vos concurrents ne s'en donnent pas nécessairement la peine. Instaurer un SLA dans votre méthode de gouvernance responsabilise les parties prenantes (développeurs, SRE, décideurs) et partage les attendus. L'entreprise s'oriente désormais grâce aux mesures qu'elle récolte, puis qu'elle interprête sous forme de SLO. On dit qu'elle est _data-driven_.
+Les SLAs ne sont pas rendus obligatoires en France par la loi. Néanmoins ils peuvent faire partie de votre contrat de service, pour clarifier vos engagements et éviter les litiges. En effet, il est toujours préférable de lister des conditions claires pour lesquelles vous et votre client vous êtes engagés. Les SLAs sont également un avantage concurrentiel : votre entreprise s'engage à fournir une certaine qualité de service, là où vos concurrents ne s'en donnent pas nécessairement la peine. Instaurer un SLA dans votre méthode de gouvernance responsabilise les parties prenantes (développeurs, SRE, décideurs) et partage les attendus. L'entreprise s'oriente désormais grâce aux mesures qu'elle récolte, puisqu'elle interprête sous forme de SLO. On dit qu'elle est _data-driven_.
 
 Au sein d'une institution, vous pouvez utiliser un SLO/SLA comme un moyen de gagner en crédibilité auprès de votre hiérarchie ou de certaines équipes. Un SLA remplit peut justifier l'embauche de personnels nécessaires pour maintenir un certain niveau de service. Ou bien justifier une augmentation de budget pour développer l'activité de l'équipe. Inversement, la hiérarchie peut exiger de vos équipes un certain niveau de qualité de service, reporté sur les objectifs annuels des personnels. Dans le cadre d'une expérimentation, établir des SLOs suffit. Constituer des SLOs fiables est déjà un enjeu de taille. Maintenir les objectifs en est un autre.
 
@@ -2591,7 +2591,7 @@ Grâce aux CRDs[^CRD] ou en déployant les configurations Helm[^Helm] d'outils _
 
     ![Interface web de Hashicorp Vault permettant de manipuler les secrets utilisés au sein d'une infrastructure.\label{fig:hashicorp_vault_ui}](./images/hashicorp_vault_ui.png)
 
-7. Sauvegarde automatique des volumes persistants (cf. [Valero](https://velero.io/docs/v1.10/))
+7. Sauvegarde automatique des volumes persistants (cf. [Velero](https://velero.io/docs/v1.10/))
 
 8. Chiffrement des flux réseau entre les conteneurs (cf. chapitre "[Service mesh](#service-mesh)", fig. <spanc/>\ref{fig:istio_kiali_tls_communication})
 
